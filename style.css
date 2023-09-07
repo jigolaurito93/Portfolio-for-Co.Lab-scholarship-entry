@@ -505,8 +505,9 @@ btn {
 @media screen and (min-width: 1025px) {
     .about-center {
         flex-direction: row;
+        padding-top: 5rem;
         width: 90vw;
-        height: 100vh;
+        height: 75vh;
     }
     .about-img-banner {
         width: 50vw;
@@ -516,8 +517,11 @@ btn {
     }
 
     .about-info {
-        width: 100vw;
+        width: 80vw;
         padding: 0 3rem;
+    }
+    .about-p, .about-p1 {
+        font-size: 1.2rem;
     }
     .about-p {
         margin-top: 2rem;
@@ -530,8 +534,28 @@ btn {
     }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1610px) {
+    /* .about {
+        margin: 0 10rem;
+        padding-bottom: 40rem;
+    } */
 
+    .about-center {
+        padding-left: 15rem;
+        padding-bottom: 5rem;
+    }
+    .about-img-banner {
+        width: 30vw;
+    }
+    .options {
+        max-width: 40vw;
+    }
+    .tab-contents {
+        max-width: 40vw;
+    }
+    .about-p, .about-p1 {
+        max-width: 40vw;
+    }
 }
 
 
