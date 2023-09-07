@@ -560,3 +560,162 @@ btn {
 
 
 /* ============= END ABOUT ME =============== */
+
+
+/* ======== PROJECTS SECTION ============== */
+
+.projects{
+    width: 100vw;
+}
+.project-center {
+    padding-top: 5rem;
+}
+.project-h1{
+    font-size: 4rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.project-cards {
+    width: 65vw;
+    max-width: 65vw;
+    margin: 1rem auto;
+}
+.project-card, .content-text {
+    text-align: center;
+}
+
+.project-img, .content-text {
+    transition: var(--transition);
+    border-radius: 6px;
+    box-shadow: var(--box-shadow);
+}
+
+.project-card{
+    position: relative;
+    margin: 1.1rem;
+    width: 100%;
+    float: left;
+    cursor:pointer;
+}
+
+.project-card img{
+    width: 100%;
+    margin-bottom: -4px;
+    
+}
+
+.project-card .content-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    opacity: 0;
+}
+
+.content-text h2 {
+   padding-top: 40%;
+   font-size: 30px;
+}
+
+.content-text p {
+    font-size: 15px;
+    padding-top: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.project-card:hover .content-text {
+    opacity: 1;
+}   
+
+.project-card:hover img {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.more-projects {
+    text-align: center;
+    width: 100vw;
+    clear: left;
+}
+
+.see-more{
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    width: 25%;
+    padding: .80rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 769px) {
+    .project-card{
+        /* padding: .5rem; */
+        margin:3rem auto
+    }
+
+}
+
+@media screen and (max-width: 1150px) {
+    .project-card{
+        max-width: 48%;
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project-card{
+        float: none;
+        max-width: 80%;
+        margin: 3rem auto;
+    }
+    .see-more{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1151px) {
+    .project-card{
+        width: 20rem;
+        margin: 3%;
+    }
+    .project-cards {
+        width: 100vw;
+        height: 80vh;
+        margin: 0 15rem;
+    }
+    .content-text {
+        padding: 0 3rem;
+    }
+}
+
+@media screen and (min-width: 1510px){
+    .project-card{
+        width: 15rem;
+        margin: 3%;
+    }
+    .project-cards {
+        height: 80vh;
+        margin: 0 20rem;
+    }
+}
+
+@media screen and (min-width: 1802px){
+    .project-cards {
+        height: 80vh;
+        margin: 0 20rem;
+    }
+    .project-card{
+        width: 20rem;
+        margin: 3%;
+    }
+    .project-h1 {
+        font-size: 6rem;
+    }
+}
+
+
+/* ======== END PROJECTS SECTION ============== */
