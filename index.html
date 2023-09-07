@@ -292,10 +292,68 @@
     <!-- End Projects Section -->
 
     <!-- API Section -->
-    sec
+    <section class="wrapperz" id="API">
+        <!-- logo -->
+        <div class="logoz">
+            <div class="containerz">
+                <p>Movie<span>Corn.</span></p>
+            </div>
+        </div>
+        <!-- end logo -->
+        <!-- search container -->
+        <div class="search-container">
+            <div class="search-element">
+                <h3>Search Movie:</h3>
+                <input type="text" class="form-control" placeholder="Search Movie Title..." id="movie-search-box" onkeyup="findMovies()">
+                <div class="search-list" id="search-list">
+                    <!-- list here -->
+                    <!-- <div class="search-list-item">
+                        <div class="search-item-thumbnail">
+                            <img src="/images/3x4.jpg" alt="">
+                        </div>
+                        <div class="search-item-info">
+                            <h3>Guardians of the Galaxy</h3>
+                            <p>2017</p>
+                        </div>
+                    </div> -->
+                    <!-- end list here -->
+                </div>
+            </div>
+        </div>
+        <!-- end search container -->
+
+        <!-- result container  -->
+        <div class="container">
+            <div class="result-container">
+                <div class="result-grid" id="result-grid">
+                    <!-- movie information here -->
+                    <div class="movie-poster">
+                        <img src="/images/power rangers.jpg" alt="" class="movie poster">
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Mighty Morphin Power Rangers</h3>
+                        <ul class="movie-misc-info">
+                            <li class="year">Year: 1995</li>
+                            <li class="rated">Ratings: PG</li>
+                            <li class="released">Released: 30 Jun 1995</li>
+                        </ul>
+                        <p class="genre"><b>Genre:</b> Action, Adventure, Family</p>
+                        <p class="writer"><b>Writer:</b> John Kamps, Arne Olsen</p>
+                        <p class="actors"><b>Actors:</b> Karan Ashley, Johnny Yong Bosch, Steve Cardenas</p>
+                        <p class="plot"><b>Plot:</b> A giant egg is unearthed at a construction site and soon opened, releasing the terrible Ivan Ooze, who wreaks vengeance on Zordon for imprisoning him millennia ago. With Zordon dying and their powers lost, the Rangers head to a di...</p>
+                        <p class="language"><b>Language:</b>English</p>
+                        <p class="awards"><b><i class="fas fa-award"></i></b> 1 Nomination</p>
+
+                    </div>
+                    <!-- end movie information here -->
+                </div>
+            </div>
+        </div>
+        <!-- end result container  -->
+    </section>
     <!-- API Section -->
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
