@@ -177,6 +177,35 @@ btn {
   }
 }
 
+/* ========= NAVBAR ============== */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--clr-white);
+    box-shadow: var(--dark-shadow);
+    z-index: 2;
+}
+.nav-icons {
+    display: none;
+}
+.nav-center {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.nav-toggle {
+    
+}
+
+/* ========= END NAVBAR ============ */
 
 
 /* ========== HERO =========================*/
