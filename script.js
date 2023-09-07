@@ -60,10 +60,31 @@ for (let i=0; i < options.length; i++) {
 // ============ END OF ABOUT ME PAGE ====================
 
 
+// ============= PROJECTS =========================
+const linkss = [
+    'https://simonsays814.netlify.app/', 
+    'https://backpacksite.netlify.app/', 
+    'https://teawebsitebaconator.netlify.app/',
+    'https://github.com/jigolaurito93/Snake-Game-Python',
+    'https://github.com/jigolaurito93/Turtle-Race-Game-EventListener-Python',
+    'https://github.com/jigolaurito93/Coffee-Machine-OOP-Python'
+    ]
+    
+    let projects = document.querySelectorAll('.project-card');
+    for (let i=0; i < projects.length; i++){
+      projects[i].addEventListener('click', function direct(){
+        for (let link of linkss){
+          console.log(linkss[i])
+          window.location.href = linkss[i];
+        }
+      })
+    }
+// ============= END PROJECTS =========================
+
+
 // ============ API CALL =======================
 // Titles: https://omdbapi.com/?s=thor&page=1&apikey=81a6a4c7
 // details: http://www.omdbapi.com/?i=tt3896198&apikey=81a6a4c7
-// https://www.omdbapi.com/?s=avengers&page=2&apikey=81a6a4c7
 
 
 const movieSearchBox = document.getElementById('movie-search-box');
